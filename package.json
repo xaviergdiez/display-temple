@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Display Advertising Temple by x-code.studio - Create Display Advertising Units for various vendors.",
   "scripts": {
-    "prepublishOnly": "npm-run-all -s validate build",
     "validate": "npm-run-all -p lint test",
     "build": "npm-run-all -s clean build:*",
     "build:copy": "node copy-src-to-dist.js",
